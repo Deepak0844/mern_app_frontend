@@ -1,0 +1,157 @@
+.formWrapper {
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin: 20px 0;
+}
+.formContainer {
+  position: relative;
+}
+.fieldSet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 5px 5px 10px;
+  width: 100%;
+  justify-items: center;
+  border: 1px solid black;
+}
+.inputContainer_left {
+  padding: 5px;
+  width: 100%;
+  max-width: 310px;
+}
+.inputContainer_right {
+  padding: 5px;
+  padding-top: 0;
+  width: 100%;
+  max-width: 310px;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.button {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+/* material ui input components style */
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 3px !important;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  width: 146px !important;
+  height: 3px !important;
+}
+/* profile */
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  gap: 65px;
+}
+.profilePicError {
+  margin-left: 115px;
+  margin-top: -23px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #d32f2f;
+}
+
+/* location */
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  height: 5px !important;
+  min-height: 5px !important;
+  margin: 2px !important;
+}
+.select .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 210px !important;
+  margin-left: 4px !important;
+  line-height: 10px;
+  height: 37px !important;
+}
+
+.select span {
+  width: 140px;
+}
+
+.select {
+  position: relative;
+}
+.optionalText {
+  position: absolute;
+  top: 42px;
+  left: 110px;
+  font-size: 11px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+/* jobType */
+.jobType {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.jobBtn {
+  margin-left: -90px;
+  display: flex;
+  justify-content: center;
+}
+
+.errorMessage {
+  margin-left: 115px;
+  margin-top: -23px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #d32f2f;
+}
+
+.checkbox {
+  background-color: whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.316);
+  box-shadow: rgba(138, 142, 145, 0.124) 0px 8px 24px;
+  border-radius: 5px;
+  padding: 5px;
+  min-width: 30px;
+  margin-left: 10px;
+  text-align: center;
+}
+.errorJobType {
+  border: 1px solid #d32f2f;
+}
+.checkbox:hover {
+  background-color: rgba(119, 117, 117, 0.652);
+}
+
+/* phone */
+.PhoneInputInput {
+  height: 25px;
+  border: 1px solid #cbcbcb;
+  padding: 5px;
+  border-radius: 4px;
+  width: 155px;
+}
+
+.PhoneInputInput:hover {
+  outline: 1px solid #020405a8;
+}
+.PhoneInputInput:focus {
+  outline: 1px solid #1976d2;
+}
+.errorPhoneInput .PhoneInputInput {
+  border: 1px solid #d32f2f;
+}
+
+@media (max-width: 1060px) {
+  .formWrapper {
+    max-width: 95%;
+    left: 49%;
+  }
+}

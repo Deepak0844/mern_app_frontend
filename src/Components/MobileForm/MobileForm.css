@@ -1,0 +1,88 @@
+.mobileFieldWrapper {
+  padding: 10px;
+}
+.mobileFieldContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.mobileField {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+}
+.mobileOptionalText {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  font-size: 11px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.mobileSubmitBtn {
+  text-align: center;
+}
+
+.mobileField .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 290px !important;
+  margin-left: 4px !important;
+  line-height: 10px;
+  height: 37px !important;
+}
+
+/* profile pic */
+.profileMobileField {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  align-items: center;
+}
+.profilePicErrorMobile {
+  text-align: center;
+  margin-top: -0px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #d32f2f;
+}
+
+/* phone no */
+.phoneMobileField .PhoneInputInput {
+  width: 235px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.mobileErrorMessage {
+  margin-left: -165px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #d32f2f;
+}
+
+/* job */
+.jobTypeMobileField > span {
+  margin-left: -50px;
+}
+
+.jobTypeMobileField .jobBtn {
+  margin-top: 15px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+}
+.jobTypeMobileField .jobType {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 360px) {
+  .mobileField .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 200px !important;
+  }
+}

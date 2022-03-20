@@ -1,0 +1,21 @@
+.userDetailsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.userDetails_left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.userDetails_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.actionBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

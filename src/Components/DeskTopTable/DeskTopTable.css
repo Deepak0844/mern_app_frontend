@@ -1,0 +1,16 @@
+.tableWrapper {
+  max-width: 71.5%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-49%, 0%);
+  margin: 20px 0;
+}
+@media (max-width: 1060px) {
+  .tableWrapper {
+    max-width: 97%;
+    left: 49%;
+  }
+}
