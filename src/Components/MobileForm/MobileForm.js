@@ -1,18 +1,14 @@
 import React from "react";
 import "./MobileForm.css";
-import { Avatar, Button } from "@mui/material";
+import { Button } from "@mui/material";
 import { JobType } from "../HelperComponents/JobType";
-import { useFormik } from "formik";
-import { formValidationSchema } from "../../Helper/ValidationHelper";
 import { SimpleTextField } from "../HelperComponents/SimpleTextField";
 import { Mobile } from "../HelperComponents/Mobile";
 import { PrefLocation } from "../HelperComponents/PrefLocation";
 import { Dob } from "../HelperComponents/Dob";
 import Profile from "../HelperComponents/Profile";
 import { Formik } from "../../Helper/ValidationHelper";
-import { ContrastOutlined } from "@mui/icons-material";
 import { useParams } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
 
 function MobileForm() {
   const { id } = useParams();

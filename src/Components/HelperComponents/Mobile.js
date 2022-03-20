@@ -1,3 +1,5 @@
+import "../DeskTopForm/DeskTopForm.css";
+import "../MobileForm/MobileForm.css";
 import React from "react";
 import PhoneInput from "react-phone-number-input";
 import { formatPhoneNumberIntl } from "react-phone-number-input";

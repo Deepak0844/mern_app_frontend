@@ -1,3 +1,5 @@
+import "../DeskTopForm/DeskTopForm.css";
+import "../MobileForm/MobileForm.css";
 import {
   Select,
   FormControl,

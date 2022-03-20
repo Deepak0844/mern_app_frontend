@@ -1,3 +1,5 @@
+import "../DeskTopForm/DeskTopForm.css";
+import "../MobileForm/MobileForm.css";
 import React, { useState } from "react";
 import {
   Avatar,
@@ -7,7 +9,6 @@ import {
   Typography,
 } from "@mui/material";
 import firebaseFileUpload from "../../Helper/firebase/firebaseFileUploader";
-import "../DeskTopForm/DeskTopForm.css";
 
 //profile
 const Input = styled("input")({
