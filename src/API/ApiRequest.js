@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://backendmernapp.herokuapp.com";
 
 const serviceRequest = axios.create({
   baseURL: BASE_URL,
